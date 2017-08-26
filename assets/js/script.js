@@ -61,7 +61,7 @@ $(document).ready(function() {
         $("#video-container").css("z-index", "-10")
 
         $("#grayed-out-box").removeClass("video-open")
-        $(".vid").css("display", "none");
+        $("iframe").css("display", "none");
         $("body").css("overflow-y", "auto")
 
         $("iframe").each(function() { 

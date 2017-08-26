@@ -87,7 +87,7 @@
     }
 }*/
 
-.vid {
+iframe {
     display:none;
     object-fit: contain;
     /* max-width:100%;
@@ -98,12 +98,6 @@
     left:50%;
     transform:translateX(-50%);
     z-index: 1000;
-}
-
-@media screen and (max-height: 450px) {
-    video{
-        max-height:360px;
-    }
 }
 
 #dance-description {
