@@ -189,7 +189,7 @@ $(document).ready(function() {
     // CONTACT
     $("#emailer").on("submit", function(){
         $.ajax({
-            url: "http://formspree.io/naomi.jung16@gmail.com", 
+            url: "https://formspree.io/naomi.jung16@gmail.com", 
             method: "POST",
             data: {
                     name: $('#emailer').find('input[name="name"]').val(),
