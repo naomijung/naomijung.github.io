@@ -176,7 +176,7 @@ $(document).ready(function() {
             data: {
                     name: $('#emailer').find('input[name="name"]').val(),
                     email: $('#emailer').find('input[name="email"]').val(),
-                    message: $('#emailer').find('input[name="message"]').val(),
+                    message: $('#emailer').find($('#message')).val(),
                     _subject: "Message from naomijung.github.io",
                 },
             dataType: "json"
