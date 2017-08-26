@@ -57,25 +57,19 @@ $(document).ready(function() {
     })
 
     $("#grayed-out-box").click(function() {
-        if ($("#grayed-out-box").hasClass("video-open")) {
-            $("#grayed-out-box").removeClass("video-open")
-            $("video").css("display", "none");
-            $("body").css("overflow-y", "auto")
-
-            $('#painting-greys-vid').get(0).pause();
-            $('#lose-it-vid').get(0).pause();
-            $('#heal-vid').get(0).pause();
-            $('#dead-water-vid').get(0).pause();
-            $('#donq-vid').get(0).pause();
-            $('#ss-vid').get(0).pause();
-        }
-        if ($("#grayed-out-box").hasClass("nav-open")) {
-            $("#grayed-out-box").removeClass("nav-open")
-            $("#nav-sidebar").css("display", "none");
-            $("body").css("overflow-y", "auto")
-        }
         $("#grayed-out-box").css("display", "none")
         $("#video-container").css("z-index", "-10")
+
+        $("#grayed-out-box").removeClass("video-open")
+        $(".vid").css("display", "none");
+        $("body").css("overflow-y", "auto")
+
+        $("iframe").each(function() { 
+            var src= $(this).attr('src');
+            $(this).attr('src',src);  
+        });
+
+        
     })
 
     $('#sidebar-exit').click(function() {
