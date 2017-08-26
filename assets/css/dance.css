@@ -1,0 +1,108 @@
+#dance-content-container {
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:75%;
+    top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.thumbnail {
+    margin-left: 0.5%;
+    margin-right:0.5%;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 1%;
+    z-index: 50;
+}
+
+.thumbnail img {
+    object-fit: contain;
+    max-width:100%;
+    max-height:100%;
+
+}
+
+.overlay {
+    display: none;
+}
+
+.dance-label {
+    display:none;
+    position:absolute;
+    width:48.5%;
+    background-color: rgba(0,0,0,0.38);
+    margin: 0 auto;
+    color: white;
+    text-align:center;
+    /* padding-bottom: 8.6%; */
+    vertical-align:middle;
+    height:30%;
+}
+
+.piece-name {
+    /* padding-top:21%; */
+    font-size: 4vw;
+    font-family:Warsaw Gothic;
+    letter-spacing: 0.1vw;
+}
+
+.piece-year {
+    font-size: 2vw;
+}
+
+
+@media screen and (max-width: 860px) {
+    .thumbnail{
+        margin-left:15%;
+        width:70%;
+    }
+    .dance-label {
+        width:70%;
+        padding-bottom:15%;
+    }
+    .piece-name {
+        font-size: 6vw;
+    }
+    .piece-year {
+        font-size: 3vw;
+    }
+}
+
+#video-container {
+    position:fixed;
+    left:10vw;
+    top:10vh;
+    width:80vw;
+    /* height:100vh; */
+    /* min-height:100px; */
+    z-index: -10; 
+}
+
+/*@media screen and (max-width: 650px) {
+    #video-container{
+        width:520px;
+    }
+}*/
+
+video {
+    display:none;
+    object-fit: contain;
+    max-width:100%;
+    max-height: 80vh;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    z-index: 1000;
+}
+
+@media screen and (max-height: 450px) {
+    video{
+        max-height:360px;
+    }
+}
+
+#dance-description {
+    text-align:center;
+}

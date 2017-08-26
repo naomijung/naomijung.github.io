@@ -1,0 +1,135 @@
+#contact {
+    min-height:95vh;
+}
+
+
+#contact-container {
+    position:relative;
+    width:80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact-margin {
+    height:20px;
+}
+
+#contact-blurb{
+    position:relative;
+    left:5%;
+    text-align:center;
+    width:90%;
+    /* width: 97%; */
+}
+
+#contact-form{
+    width:48%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+
+input[type=text], input[type=email] {
+    width:95%;
+    background-color: #E9F4F3;
+    border: none;
+    height:30px;
+}
+
+
+
+input[type=textarea] {
+    width:95%;
+    background-color: #E9F4F3;
+    border: none;
+    height:100px;
+}
+
+ input[type=submit] {
+     background-color: #346270;
+     border:none;
+     color:white;
+     width:60px;
+} 
+
+#top-look {
+    display:none;
+}
+
+
+#looking-container {
+    margin-top:12px;
+    width:46%;
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    left: 5%;
+    /* left:52%;  */
+}
+
+#looking {
+    object-fit: contain;
+    max-width:100%;
+    max-height: 100%;
+}
+
+#received-message {
+    display:none; 
+    margin-top:25%;
+}
+
+#airplane {
+    width:35%;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#airplane img {
+    object-fit: contain;
+    max-width:100%;
+    max-height:100%;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#thanks {
+    text-align:center;
+}
+
+@media screen and (max-width: 750px) {
+    #looking-container {
+        display:none;
+    }
+    #contact-form {
+        display:block;
+        width:90%;
+        left:50%;
+        position:relative;
+        transform:translateX(-50%);
+        margin-bottom:15px;
+    }
+    input[type=text], input[type=email], input[type=textarea]{
+        width:100%;
+    }
+    #top-look {
+        padding-top:10px;
+        display:block;
+        width: 300px;
+        max-width:80%;
+        position:relative;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    #top-look img {
+        object-fit: contain;
+        max-width:100%;
+        max-height:100%;
+    }
+
+    #received-message {
+        margin-top:0;
+    }
+
+}
