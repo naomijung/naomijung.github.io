@@ -23,13 +23,13 @@ function onScroll(event){
 }
 
 
-$(document).ready(function() {
+$('document').ready(function() {
 
-    $(document).on("scroll", onScroll);
+    $('document').on("scroll", onScroll);
 
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
-        $(document).off("scroll");
+        $('document').off("scroll");
         
         $('a').each(function () {
             $(this).removeClass('active');
@@ -43,7 +43,7 @@ $(document).ready(function() {
             'scrollTop': $target.offset().top+2
         }, 500, 'swing', function () {
             window.location.hash = target;
-            $(document).on("scroll", onScroll);
+            $('document').on("scroll", onScroll);
         });
     });
     
