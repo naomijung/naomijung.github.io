@@ -34,15 +34,19 @@ input[type=text], input[type=email] {
     background-color: #E9F4F3;
     border: none;
     height:30px;
+    padding-left: 10px;
 }
 
 
 
-input[type=textarea] {
+textarea {
     width:95%;
     background-color: #E9F4F3;
     border: none;
     height:100px;
+    padding-left: 10px;
+    padding-top:10px;
+    resize:none;
 }
 
  input[type=submit] {
@@ -113,6 +117,11 @@ input[type=textarea] {
     input[type=text], input[type=email], input[type=textarea]{
         width:100%;
     }
+
+    textarea {
+        width: 100%;
+    }
+
     #top-look {
         padding-top:10px;
         display:block;
