@@ -136,48 +136,36 @@ $(document).ready(function() {
         $("#painting-greys-vid").css("display", "block");
         $("#grayed-out-box").css("display", "block")
         $("#grayed-out-box").addClass("video-open")
-        $('#painting-greys-vid').get(0).currentTime = 0;
-        $('#painting-greys-vid').get(0).play();
     })
 
     $("#lose-it").click(function() {
         $("#lose-it-vid").css("display", "block");
         $("#grayed-out-box").css("display", "block")
         $("#grayed-out-box").addClass("video-open")
-        $('#lose-it-vid').get(0).currentTime = 0;
-        $('#lose-it-vid').get(0).play();
     })
 
     $("#heal").click(function() {
         $("#heal-vid").css("display", "block");
         $("#grayed-out-box").css("display", "block")
         $("#grayed-out-box").addClass("video-open")
-        $('#heal-vid').get(0).currentTime = 0;
-        $('#heal-vid').get(0).play();
     })
 
     $("#dead-water").click(function() {
         $("#dead-water-vid").css("display", "block");
         $("#grayed-out-box").css("display", "block")
         $("#grayed-out-box").addClass("video-open")
-        $('#dead-water-vid').get(0).currentTime = 0;
-        $('#dead-water-vid').get(0).play();
     })
 
     $("#donq").click(function() {
         $("#donq-vid").css("display", "block");
         $("#grayed-out-box").css("display", "block")
         $("#grayed-out-box").addClass("video-open")
-        $('#donq-vid').get(0).currentTime = 0;
-        $('#donq-vid').get(0).play();
     })
 
     $("#ss").click(function() {
         $("#ss-vid").css("display", "block");
         $("#grayed-out-box").css("display", "block")
         $("#grayed-out-box").addClass("video-open")
-        $('#ss-vid').get(0).currentTime = 0;
-        $('#ss-vid').get(0).play();
     })
 
     // CONTACT
