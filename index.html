@@ -31,6 +31,7 @@
 
     </script>
 
+    <link rel="icon" href="assets/img/nj.png">
     <meta property="og:title" name = "title" content="Naomi Jung" />
     <meta property="og:url" name = "url" content="https://naomijung.github.io/" />
     <meta property="og:image" name = "image" content="assets/img/web-thumbnail.png" />
@@ -45,6 +46,7 @@
             <div id = "nav-items">
                 <div id = "nav-about" class = "nav-item"> <a href = "#about"> about </a></div>
                 <div id = "nav-work" class = "nav-item"> <a href = "#work"> work </a> </div>
+                <!-- <div id = "nav-work" class = "nav-item"> <a href = "#work"> projects </a> </div> -->
                 <div id = "nav-dance" class = "nav-item"> <a href = "#dance"> dance </a> </div>
                 <div id = "nav-contact" class = "nav-item"> <a href = "#contact"> contact </a> </div>
             </div>
@@ -94,6 +96,7 @@
                 <div id = "nav-items-about">
                     <a href = "#about"> about </a>
                     <a href = "#work"> work </a>
+                    <!-- <a href = "#projects"> projects </a> -->
                     <a href = "#dance"> dance </a> 
                     <a href = "#contact"> contact </a> 
                 </div>
@@ -116,16 +119,49 @@
                 </div>
                 <div id = "bio-box">
                     <div id = "bio-text">
-                        Hello! My name is Naomi Jung and I am a second-year undergraduate student 
-                        studying Computer Science <!--and Political Economy--> at the University of California, 
-                        Berkeley. I am an aspiring engineer and designer, and am particularly interested 
+                        Hello! My name is Naomi Jung and I am a third-year undergraduate student 
+                        studying Computer Science at the University of California, 
+                        Berkeley. 
+                        <br> <br>
+                        I am an aspiring engineer and designer, and am particularly interested 
                         in the intersection between sustainability, social impact, and technology. In my 
                         free time, I enjoy exploring new places, hand-lettering, and dancing. 
                         <br> <br>
                         Keep scrolling to learn more about my work experience and involvement in activities
-                        and view my dance portfolio. Interested in working with me? Contact me <a href = "#contact" class = "line-link"> here</a>!
+                        and view my dance portfolio. 
+                        Interested in working with me? Contact me <a href = "#contact" class = "line-link"> here</a>!
                     </div>
                 </div>   
+                <div style="height:30px"></div>
+                <!-- <div id = "about-deep-dives"> 
+                    <div class = "deep-dive">
+                        <img src = "assets/img/about-work.png">
+                        <div class = "dive-title"> <b> Work <br>Experience </b> </div>
+                        <div class = "deep-dive-text">
+                            <p> I've worked at Slack, participated in the KPCB Fellows Program,
+                                and have been a course tutor at UC Berkeley.  </p>
+            </div>
+                        <a href = "#work" class = "about-button" id = "work-button"> See my experiences </a>
+                    </div>
+                    <div class = "deep-dive">
+                        <img src = "assets/img/about-projects.png">
+                        <div class = "dive-title"> <b> My <br> Projects</b> </div>
+                        <div class = "deep-dive-text">
+                            <p> School and personal projects I've built include 
+                                a version control system, a 2048 game, and club websites.  </p>
+                        </div>
+                        <a href = "#projects" class = "about-button" id = "proj-button"> View my projects </a>
+                    </div>
+                    <div class = "deep-dive">
+                            <img src = "assets/img/about-dance.png">
+                            <div class = "dive-title"> <b> Dance <br>Portfolio</b> </div>
+                            <div class = "deep-dive-text">
+                                <p> Outside of school and work, I am passionate about expressing 
+                                    myself creatively through dance and choreography.  </p>
+                            </div>
+                            <a href = "#dance" class = "about-button" id = "dance-button"> Watch my videos </a>
+                        </div>
+                </div>    -->
             </div>
             <!-- <div class = "swirl-container"><img class = "swirl" src = "assets/img/swirl.png"></div> -->
         </div>
@@ -139,96 +175,115 @@
                 <img class = "card-title" src = "assets/img/headers-no-shadow/work.png">
             </div>
 
-            <div id = "work-content-container">
+            <div id = "button-container">
+            <div id = "resume-button">
+                <a href = "assets/docs/Naomi_Jung_Resume.pdf" target = "_blank">See Full Resume</a>
+            </div>
+            </div>
 
-                <div class = "item" id = "rs">
+
+            <div id = "work-content-container" class="resume">
+
+                <div class = "item" id = "kp" style="padding-top:5px">
+                        <div class = "logo-box">
+                            <img class = "logo" src = "assets/img/work/logo/kp.png">
+                        </div>
+                        <div class = "all-but-logo">
+                            <div class = "heading">
+                                <div class = "resume-entry">
+                                    <div class = "org"> Kleiner Perkins Fellows Program // Engineering Fellow </div>
+                                    <div class = "position"> May 2018 - August 2018 </div>
+                                </div>
+                            </div>
+                            <div class = "description">
+                                <div class = "work-summary">
+                                    <p> RealtyShares is a real estate crowdfunding platform through which individual investors can purchase shares in vetted residential and commercial real estate properties for as little as $5,000. The company is backed by several investors including Union Square Ventures, 500 Startups, and General Catalyst.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class = "item" id = "slack">
                     <div class = "logo-box">
-                        <img class = "logo" src = "assets/img/work/logo/rs-logo2.png">
+                        <img class = "logo" src = "assets/img/work/logo/slack.png">
                     </div>
                     <div class = "all-but-logo">
                         <div class = "heading">
                             <div class = "resume-entry">
-                                <div class = "org"> RealtyShares // Crowdfunding Real Estate Platform </div>
-                                <div class = "position"> Product & Engineering Intern, Summer 2017 </div>
+                                <div class = "org"> Slack // Software Engineering Intern </div>
+                                <div class = "position"> May 2018 - August 2018 </div>
+                            </div>
+                        </div>
+                        <div class = "description">
+                            <div class = "work-summary">
+                                <p> At Slack, I modernized the <i> customize emoji </i> page to decrease its load time and improve its usability.
+                                This included building API endpoints to return searchable and paginated emoji data and to add and automatically resize </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "item" id = "rs">
+                    <div class = "logo-box">
+                        <img class = "logo" src = "assets/img/work/logo/eecs.png">
+                    </div>
+                    <div class = "all-but-logo">
+                        <div class = "heading">
+                            <div class = "resume-entry">
+                                <div class = "org"> UC Berkeley EECS Department // CS 61A Undergraduate Student Instructor </div>
+                                <div class = "position"> February 2018 - Present </div>
                             </div>
                         </div>
                         <div class = "description">
                             <div class = "work-summary">
                                 <p> RealtyShares is a real estate crowdfunding platform through which individual investors can purchase shares in vetted residential and commercial real estate properties for as little as $5,000. The company is backed by several investors including Union Square Ventures, 500 Startups, and General Catalyst.</p>
-                                <p> During my internship, I designed, coded, tested, and deployed a full-stack Node-React web application that automated the validation of real estate track records submitted by borrowers. The web app parsed data from an uploaded Excel sheet and made corresponding calls to external API sources containing data from public record. The script compared this data to the input data and rendered an interactive message with the validation results.</p>
-                                <p> In addition, I created a product roadmap for an internal admin tool that would help loan originators keep track of sponsor-submitted documents. I engaged with stakeholders, conducted user testing, and consulted with designers to break down the project and build stories and engineering tickets. </p>
-                            </div>
+                                </div>
                         </div>
-                    </div>
-                    <div class = "bar">
-                        <div class = "learn-more"> LEARN MORE </div>
-                        <div class = "close"> CLOSE </div>
                     </div>
                 </div>
 
-                <div class = "item" id = "nib">
+                <div class = "item" id = "rs">
                     <div class = "logo-box">
-                        <img class = "logo" src = "assets/img/work/logo/nib-logo.png">
+                        <img class = "logo" src = "assets/img/work/logo/rs.png">
+                    </div>
+                    <div class = "all-but-logo">
+                        <div class = "heading">
+                            <div class = "resume-entry">
+                                <div class = "org"> RealtyShares // Product & Engineering Intern </div>
+                                <div class = "position"> May 2017 - August 2017 </div>
+                            </div>
+                        </div>
+                        <div class = "description">
+                            <div class = "work-summary">
+                                <p> RealtyShares is a real estate crowdfunding platform through which individual investors can purchase shares in vetted residential and commercial real estate properties for as little as $5,000. The company is backed by several investors including Union Square Ventures, 500 Startups, and General Catalyst.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "item" id = "nib" style="padding-bottom:30px">
+                    <div class = "logo-box">
+                        <img class = "logo" src = "assets/img/work/logo/nib.png">
                     </div>
                     <div class="all-but-logo">
                         <div class = "heading">
                             <div class = "resume-entry">
-                                <div class = "org"> Net Impact Berkeley // Social Impact Consulting Group </div>
-                                <div class = "position"> Senior Associate, Fall 2016 - Present </div>
+                                <div class = "org"> Net Impact Berkeley // Project Manager </div>
+                                <div class = "position"> Fall 2016 - Present </div>
                             </div>
                         </div>
                         <div class = "description">
                             <div class = "work-summary">
                                 <p> Net Impact Berkeley is the premier undergraduate social impact consulting club at UC Berkeley that provides strategy and impact consulting services to non-profits, social enterprises, and corporations. Past clients include SolarCity, Adobe, Delta Airlines, IKEA, Kiva, and Sprint.</p>
-                                <p> Last semester, my team developed a profit-maximization expansion strategy for a sustainable produce company by using Excel and R to analyze internal and external data to predict demand for the product. We additionally researched and recommended messaging strategies to help the company enter these new markets successfully. The client has announced that they will expand to one of our recommended locations in early 2018.</p>  
-                               <p> In the past, I also worked with a youth empowerment social enterprise that was working to develop a transitional employment pipeline program for opportunity youth. My team recommended best practices and external tools the organization could use to increase job attainment and retention upon program completion. The increased program efficacy as a result of our solutions is expected to lead to 100 additional youth being hired in Seattle by late 2017.</p>
-                                <!-- <p>Net Impact Berkeley is the premier undergraduate social impact consulting club at the UC Berkeley campus that provides strategy and impact consulting services to non-profits, for-profits, and social enterprises. Past clients include: SolarCity, Adobe, Delta Airlines, IKEA, 3M, Wells Fargo and Sprint.</p> -->
-
-                                <!-- <p> My past projects include developing a profit-maximization expansion strategy for a sustainable produce company by analyzing internal and external data to predict demand for the product. I also worked with a social enterprise serving underprivileged youth to create metrics and recommend tools for a developing transitional employment pipeline program for opportunity youth. </p> -->
                             </div>
-                            <!--<div class = 'work-images'>
-                                <img src = "assets/img/work/pics/nib-banquet.jpg">
-                                <img src = "assets/img/work/pics/nib-la.jpg">
-                                <img src = "assets/img/work/pics/nib-beach.jpg">
-                            </div>-->
                         </div>
                     </div>
-                    <div class = "bar">
-                        <div class = "learn-more"> LEARN MORE </div>
-                        <div class = "close"> CLOSE </div>
-                    </div>
+
                 </div>
 
 
-                <div class = "item" id = "thrive">
-                    <div class = "logo-box">
-                        <img class = "logo" src = "assets/img/work/logo/thrive-logo.png">
-                    </div>
-                    <div class = "all-but-logo">
-                        <div class = "heading">
-                            <div class = "resume-entry">
-                                <div class = "org"> Thrive Dance Company // Contemporary Dance Group </div>
-                                <div class = "position"> Director of Outreach & Choreographer, Fall 2016 - Present </div>
-                            </div>
-                        </div>
-                        <div class = "description">
-                            <div class = "work-summary">
-                                <p> Thrive Dance Company is UC Berkeley's only dance group solely dedicated to contemporary dance. The company is student-led and student-choreographed, and every semester, Thrive performs in various performances within the Berkeley community and also hosts and produces its own showcase.</p>
-                                <p>As Director of Outreach, I have organized Thrive's participation in local performances and external events and have worked to develop partnerships with other student dance groups to foster community among dancers. In the past, I have also choreographed for Thrive, and those experiences have allowed me to more deeply explore movement and my abilities to channel creativity and artistry.</p>
-                            </div>
-                            <!--<div class = 'work-images'>
-                                <img src = "assets/img/work/pics/thrive-fall.jpg">
-                                <img src = "assets/img/work/pics/thrive-pictures.jpg">
-                                <img src = "assets/img/work/pics/thrive-veto.jpg">
-                            </div>-->
-                        </div>
-                    </div>
-                    <div class = "bar">
-                        <div class = "learn-more"> LEARN MORE </div>
-                        <div class = "close"> CLOSE </div>
-                    </div>
-                </div>
             </div>
+
             <!-- <div class = "swirl-container"><img class = "swirl" src = "assets/img/swirl.png"></div> -->
         </div>
     </section>
@@ -353,30 +408,6 @@
     </section>
 
     <div id = "video-container">
-        <!-- <video id = "painting-greys-vid"  class = "vid" controls> 
-            <source src ="assets/vid/painting-greys.mp4">
-            Your browser does not support the video tag.
-        </video>
-        <video id = "lose-it-vid" class = "vid" controls> 
-            <source src = "assets/vid/lose-it.mp4">
-            Your browser does not support the video tag.
-        </video>
-        <video id = "heal-vid" class = "vid" controls> 
-             <source src = "assets/vid/heal-w-music.mp4"> 
-            Your browser does not support the video tag.
-        </video>
-        <video id = "dead-water-vid" class = "vid" controls>  
-              <source src = "assets/vid/dead-water.mp4">  
-            Your browser does not support the video tag.
-        </video>
-        <video id = "donq-vid" class = "vid" controls>
-            <source src = "assets/vid/don-q.mp4">
-            Your browser does not support the video tag.
-        </video> -->
-        <!-- <video id = "ss-vid" controls>
-            <source src = "assets/vid/ss.mp4">
-            Your browser does not support the video tag.
-        </video> -->
         <iframe id = 'painting-greys-vid' class = "vid" src="https://www.youtube.com/embed/cyjRdO3-ouI?start=40" frameborder="0" allowfullscreen></iframe>
         <iframe id = 'lose-it-vid' class = "vid" src="https://www.youtube.com/embed/wXLAVdex7vY?start=26" frameborder="0" allowfullscreen></iframe>
         <iframe id = 'heal-vid' class = "vid" src="https://www.youtube.com/embed/8pRXq2j9dmE" frameborder="0" allowfullscreen></iframe>
@@ -385,7 +416,7 @@
         <iframe id = 'ss-vid' class = "vid" src="https://www.youtube.com/embed/GWV_hqZaUts" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div id = "footer" style = "padding-top: 20px; font-size:12px;"> © Naomi Jung // 2017 </div>
+    <div id = "footer" style = "padding-top: 20px; font-size:12px;"> © 2018 Naomi Jung. All Rights Reserved. </div>
 
 
 </body>

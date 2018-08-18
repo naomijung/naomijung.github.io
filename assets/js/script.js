@@ -99,19 +99,19 @@ $(document).ready(function() {
 
 
     // WORK
-    $(".bar").click(function () { 
-        if ($(this).hasClass("show-text")) { 
-            $(this).removeClass("show-text"); 
-            $(this).find(".close").css("display", "none");
-            $(this).find(".learn-more").css("display", "table-cell");
-            $(this).parent().find(".description").css("display","none");
-        } else {
-            $(this).addClass("show-text"); 
-            $(this).find(".close").css("display", "table-cell");
-            $(this).find(".learn-more").css("display", "none");
-            $(this).parent().find(".description").css("display","block");
-        }
-    });
+    // $(".bar").click(function () { 
+    //     if ($(this).hasClass("show-text")) { 
+    //         $(this).removeClass("show-text"); 
+    //         $(this).find(".close").css("display", "none");
+    //         $(this).find(".learn-more").css("display", "table-cell");
+    //         $(this).parent().find(".description").css("display","none");
+    //     } else {
+    //         $(this).addClass("show-text"); 
+    //         $(this).find(".close").css("display", "table-cell");
+    //         $(this).find(".learn-more").css("display", "none");
+    //         $(this).parent().find(".description").css("display","block");
+    //     }
+    // });
 
     //DANCE
     $(".thumbnail").hover(function() {

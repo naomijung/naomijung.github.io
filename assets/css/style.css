@@ -1,6 +1,6 @@
 body {
     color: #404040;
-    font-family: Avenir;
+    font-family: "Avenir";
     margin: 0 0;
 }
 
@@ -37,7 +37,7 @@ body {
 
     .card-header-container {
         /*position:relative;*/
-        height:90px;
+        height:70px;
         width:80%;
         padding:20px;
     }
