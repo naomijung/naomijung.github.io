@@ -16,12 +16,20 @@
     text-align: center;
 }
 
+#resume-button a:hover {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+    background-color: #4E93A8;
+}
+
 #resume-button a {
     text-align: center;
-    border: 1px solid #016E83;
+    border: 1px solid #4E93A8;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
-    color: #016E83;
+    color: #4E93A8;
 }
 
 #work-content-container {

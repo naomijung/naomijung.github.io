@@ -1,0 +1,93 @@
+#teach-header {
+    height: 300px;
+    background-image: url("../img/bikes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#teach-header img {
+    max-height: 180px;
+    /* width: 30%; */
+    left: 60%;
+    position:relative;
+    top: 50%;
+}
+
+@media screen and (max-width: 850px) {
+    #teach-header img{
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #teach-header img{
+        left: 50%;
+    }
+}
+
+#teach-content {
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    max-width: 1000px;
+}
+
+.course-title {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.lecture {
+    color: #EEA04A;
+}
+
+.teach-about {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.teach-about img {
+    max-width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.teach-about-words {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.schedule {
+    margin-top: 20px;
+    color: #4E93A8;
+    font-size: 18px;
+}
+
+.schedule b{
+    color: #404040;
+}
+
+.appoint {
+    margin-top: 10px;
+}
+
+.appoint a {
+    text-decoration: none;
+    color: #90C9C3;
+}
+
+.resource-header {
+    margin-top: 20px;
+    color: #EEA04A;
+    font-size: 22px;
+}
+
+.teach-home {
+    background-color: rgba(255,255,255,0.85);
+    padding: 2px 7px 2px 7px;
+    border: 1px solid #90C9C3;
+}

@@ -3,6 +3,7 @@ function onScroll(event){
     $('#nav-item-container a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
+        if (refElement.selector == "cs61a.html") return;
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('#nav-item-container a').removeClass("active");
             currLink.addClass("active");
@@ -118,12 +119,12 @@ $(document).ready(function() {
         $(this).find(".overlay").css("display", "inline-block");
         $(this).find(".non-overlay").css("display", "none");
         $('body').css('cursor', 'pointer')
-        //$(this).find(".dance-label").css("display", "inline-block");
+        $(this).find(".dance-label").css("display", "inline-block");
     }, function() {
         $(this).find(".non-overlay").css("display", "inline-block");
         $(this).find(".overlay").css("display", "none");
         $('body').css('cursor', 'default')
-        //$(this).find(".dance-label").css("display", "none");
+        $(this).find(".dance-label").css("display", "none");
     })
 
     $(".thumbnail").click(function() {
