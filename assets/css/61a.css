@@ -14,6 +14,12 @@
     top: 50%;
 }
 
+@media only screen and (max-width: 650px) {
+    #teach-pic {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 850px) {
     #teach-header img{
         height: 140px;
@@ -23,6 +29,7 @@
 @media screen and (max-width: 650px) {
     #teach-header img{
         left: 50%;
+        transform:translateX(-50%);
     }
 }
 
@@ -61,6 +68,17 @@
     margin-left: 5%;
 }
 
+@media only screen and (max-width: 650px) {
+    .teach-about-words {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+#teach-email {
+    color: #90C9C3;
+}
+
 .schedule {
     margin-top: 20px;
     color: #4E93A8;
@@ -90,4 +108,9 @@
     background-color: rgba(255,255,255,0.85);
     padding: 2px 7px 2px 7px;
     border: 1px solid #90C9C3;
+}
+
+.slides-text {
+    color: #4E93A8;
+    text-decoration: none;
 }
