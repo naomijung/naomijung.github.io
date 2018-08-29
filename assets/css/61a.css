@@ -98,6 +98,11 @@
     color: #90C9C3;
 }
 
+.feedback a {
+    text-decoration: none;
+    color: #EEA04A;
+}
+
 .resource-header {
     margin-top: 20px;
     color: #EEA04A;
